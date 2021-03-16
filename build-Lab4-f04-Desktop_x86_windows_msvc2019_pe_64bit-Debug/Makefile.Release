@@ -478,7 +478,12 @@ release\main.obj: ..\Lab4-f04\main.cpp ..\Lab4-f04\mainwindow.h \
 		E:\Qt\6.0.1\msvc2019_64\include\QtWidgets\qboxlayout.h \
 		E:\Qt\6.0.1\msvc2019_64\include\QtWidgets\qlayout.h \
 		E:\Qt\6.0.1\msvc2019_64\include\QtWidgets\qlayoutitem.h \
-		E:\Qt\6.0.1\msvc2019_64\include\QtWidgets\qgridlayout.h
+		E:\Qt\6.0.1\msvc2019_64\include\QtWidgets\qgridlayout.h \
+		E:\Qt\6.0.1\msvc2019_64\include\QtWidgets\QGridLayout \
+		E:\Qt\6.0.1\msvc2019_64\include\QtWidgets\QMessageBox \
+		E:\Qt\6.0.1\msvc2019_64\include\QtWidgets\qmessagebox.h \
+		E:\Qt\6.0.1\msvc2019_64\include\QtWidgets\qdialog.h \
+		E:\Qt\6.0.1\msvc2019_64\include\QtCore\QPair
 
 release\mainwindow.obj: ..\Lab4-f04\mainwindow.cpp ..\Lab4-f04\mainwindow.h \
 		E:\Qt\6.0.1\msvc2019_64\include\QtWidgets\QMainWindow \

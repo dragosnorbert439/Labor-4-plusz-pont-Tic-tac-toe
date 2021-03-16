@@ -7,7 +7,7 @@
 *****************************************************************************/
 
 #include <memory>
-#include "../../Lab4-f04/mainwindow.h"
+#include "../../../Labor-4-plusz-pont-Tic-tac-toe/Lab4-f04/mainwindow.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
