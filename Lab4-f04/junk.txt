@@ -1,0 +1,16 @@
+QApplication a(argc, argv);
+MainWindow w;
+
+QWidget * window = new QWidget();
+QVBoxLayout * layout = new QVBoxLayout(window);
+
+QPixmap buttonImage("../TTT_X.jpg");
+QIcon Icon;
+Icon.addPixmap ( buttonImage, QIcon::Normal, QIcon::Off );
+QPushButton *button = new QPushButton();
+button->setIcon(Icon);
+button->setIconSize(QSize(100,100));
+layout->addWidget(button);
+
+w.setLayout(layout);
+w.setCentralWidget(window);
